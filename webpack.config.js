@@ -4,7 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: ["@babel/polyfill", "./src/index.tsx"],
+    entry: "./src/index.tsx",
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: '[name].[hash].js'
